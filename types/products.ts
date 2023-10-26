@@ -8,4 +8,4 @@ export interface Products {
     isCart?: boolean,
     description?: string,
     quantity?: number,
-}
+   }

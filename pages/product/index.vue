@@ -1,6 +1,5 @@
 <script lang="ts" setup>
-import { computed, ref } from 'vue';
-import { products } from '../../composables/constants/products';
+import { products } from '~/composables/constants/products';
 
 const selectedCategory = ref("");
 const allProducts = computed(() => {
